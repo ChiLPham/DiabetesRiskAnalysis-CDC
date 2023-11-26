@@ -39,6 +39,7 @@ This dataset, linked on 9/25/2023, contains healthcare statistics and lifestyle 
 - The dataset also includes information about diabetes diagnosis, demographics (race, sex), personal information (income, education), and health history (drinking, smoking, mental health, physical health).
 - Class Labels: Diabetes, Pre-diabetes, Healthy
 - [Access Dataset Here](https://www.cdc.gov/brfss/annual_data/annual_2014.html)
+![Variables Information](data/variables_info.png)
 
 ### Introductory Paper
 
