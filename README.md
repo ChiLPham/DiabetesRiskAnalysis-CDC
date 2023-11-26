@@ -64,14 +64,26 @@ The dataset is associated with the paper "Incidence of End-Stage Renal Disease A
 
 ## Predictive Analysis on New Datasets
 
+- The model trained on the diabetes dataset can be used to make predictions on new datasets. It is saved in the root folder.
 - To perform predictive analysis, run the `perform_predictive_analysis` function in the `predictive_analysis.py` file.
 - This function trains a Random Forest Classifier on the diabetes dataset and saves the trained model to a file.
 - To use the trained model to make predictions on new data, run the `predict_new_data` function in the `predictive_analysis.py` file. 
 - This function loads the trained model and uses it to make predictions on the new data. The new data should be in a CSV file and preprocessed in the same way as the training data.
 
-## Results
+## Diabetes Risk Analysis Results
 
-- The results of the analysis will be saved in the `results` directory.
+### Heatmap
+
+![Heatmap](results/Heatmap.png)
+
+The heatmap visually represents the correlation between different lifestyle factors and the risk of diabetes. Darker shades indicate stronger correlations, providing insights into which factors may contribute more significantly to diabetes risk.
+
+### Histogram
+
+![Histogram](results/Histogram.png)
+
+The histogram illustrates the distribution of diabetes risk across the dataset. It helps in understanding the prevalence of different risk levels and can aid in identifying patterns or trends within the data.
+
 
 ## Contributing
 
